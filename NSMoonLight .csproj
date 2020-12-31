@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{79EA697A-5704-4DBB-A7F7-328BDDDFAC39}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>NSMoonLight</RootNamespace>
+    <AssemblyName>NSMoonLight</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\AddCongNo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddCongNo.Designer.cs">
+      <DependentUpon>AddCongNo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddKM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddKM.Designer.cs">
+      <DependentUpon>AddKM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddNV.Designer.cs">
+      <DependentUpon>AddNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DangNhap.Designer.cs">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DashBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DashBoard.Designer.cs">
+      <DependentUpon>DashBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Gioithieu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Gioithieu.Designer.cs">
+      <DependentUpon>Gioithieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\NhapKho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NhapKho.Designer.cs">
+      <DependentUpon>NhapKho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\NhapSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NhapSach.Designer.cs">
+      <DependentUpon>NhapSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ThemSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ThemSach.Designer.cs">
+      <DependentUpon>ThemSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\XuatKho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\XuatKho.Designer.cs">
+      <DependentUpon>XuatKho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\ThanhToan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControls\ThanhToan.Designer.cs">
+      <DependentUpon>ThanhToan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_AdCongNo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_AdCongNo.Designer.cs">
+      <DependentUpon>UC_AdCongNo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_AddNV.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_AddNV.Designer.cs">
+      <DependentUpon>UC_AddNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_AdKM.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_AdKM.Designer.cs">
+      <DependentUpon>UC_AdKM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_Admin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_Admin.Designer.cs">
+      <DependentUpon>UC_Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_AdQD.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_AdQD.Designer.cs">
+      <DependentUpon>UC_AdQD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_BaoCaoTK.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_BaoCaoTK.Designer.cs">
+      <DependentUpon>UC_BaoCaoTK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_HeThong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_HeThong.Designer.cs">
+      <DependentUpon>UC_HeThong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_HoaDon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_HoaDon.Designer.cs">
+      <DependentUpon>UC_HoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_Kho.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_Kho.Designer.cs">
+      <DependentUpon>UC_Kho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_NCC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_NCC.Designer.cs">
+      <DependentUpon>UC_NCC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_QuanLycs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_QuanLycs.Designer.cs">
+      <DependentUpon>UC_QuanLycs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_Sach.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_Sach.Designer.cs">
+      <DependentUpon>UC_Sach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_SearchKM.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_SearchKM.Designer.cs">
+      <DependentUpon>UC_SearchKM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_SearchQD.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_SearchQD.Designer.cs">
+      <DependentUpon>UC_SearchQD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_SearchSach.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_SearchSach.Designer.cs">
+      <DependentUpon>UC_SearchSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_SearchTL.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_SearchTL.Designer.cs">
+      <DependentUpon>UC_SearchTL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_TheLoai.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_TheLoai.Designer.cs">
+      <DependentUpon>UC_TheLoai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_TraCuu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_TraCuu.Designer.cs">
+      <DependentUpon>UC_TraCuu.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\AddCongNo.resx">
+      <DependentUpon>AddCongNo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddKM.resx">
+      <DependentUpon>AddKM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddNV.resx">
+      <DependentUpon>AddNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DangNhap.resx">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DashBoard.resx">
+      <DependentUpon>DashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Gioithieu.resx">
+      <DependentUpon>Gioithieu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NhapKho.resx">
+      <DependentUpon>NhapKho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NhapSach.resx">
+      <DependentUpon>NhapSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ThemSach.resx">
+      <DependentUpon>ThemSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\XuatKho.resx">
+      <DependentUpon>XuatKho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UserControls\ThanhToan.resx">
+      <DependentUpon>ThanhToan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_AdCongNo.resx">
+      <DependentUpon>UC_AdCongNo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_AddNV.resx">
+      <DependentUpon>UC_AddNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_AdKM.resx">
+      <DependentUpon>UC_AdKM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_Admin.resx">
+      <DependentUpon>UC_Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_AdQD.resx">
+      <DependentUpon>UC_AdQD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_BaoCaoTK.resx">
+      <DependentUpon>UC_BaoCaoTK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_HeThong.resx">
+      <DependentUpon>UC_HeThong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_HoaDon.resx">
+      <DependentUpon>UC_HoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_Kho.resx">
+      <DependentUpon>UC_Kho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_NCC.resx">
+      <DependentUpon>UC_NCC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_QuanLycs.resx">
+      <DependentUpon>UC_QuanLycs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_Sach.resx">
+      <DependentUpon>UC_Sach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_SearchKM.resx">
+      <DependentUpon>UC_SearchKM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_SearchQD.resx">
+      <DependentUpon>UC_SearchQD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_SearchSach.resx">
+      <DependentUpon>UC_SearchSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_SearchTL.resx">
+      <DependentUpon>UC_SearchTL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_TheLoai.resx">
+      <DependentUpon>UC_TheLoai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_TraCuu.resx">
+      <DependentUpon>UC_TraCuu.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheque_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maintenance_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report_file_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin_settings_male_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_32px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help_32px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gttgt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutdown_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hghjkl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue_background_design-wallpaper-1280x800.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gttgt1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ss1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutdown_32px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ss2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ss3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\horizontal_line_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book_shelf_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gttgt2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\685-6851247_transparent-person-icon-png-png-download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\202-2026524_person-icon-default-user-icon-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-password-20.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\customer_100px.png" />
+    <Content Include="Resources\low_price_pound_48px.png" />
+    <Content Include="Resources\market_square_48px.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

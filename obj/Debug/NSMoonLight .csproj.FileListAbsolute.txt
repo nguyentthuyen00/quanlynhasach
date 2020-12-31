@@ -1,0 +1,90 @@
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight (1)\obj\Debug\NSMoonLight .csprojAssemblyReference.cache
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight (1)\obj\Debug\NSMoonLight.DangNhap.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight (1)\obj\Debug\NSMoonLight.DashBoard.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight (1)\obj\Debug\NSMoonLight.Gioithieu.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight (1)\obj\Debug\NSMoonLight .csproj.GenerateResource.cache
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight (1)\bin\Debug\NSMoonLight.exe.config
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight (1)\bin\Debug\NSMoonLight.exe
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight (1)\bin\Debug\NSMoonLight.pdb
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight (1)\obj\Debug\NSMoonLight.Properties.Resources.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight (1)\obj\Debug\NSMoonLight .csproj.CoreCompileInputs.cache
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight (1)\obj\Debug\NSMoonLight.exe
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight (1)\obj\Debug\NSMoonLight.pdb
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight (1)\obj\Debug\NSMoonLight.UserControls.UC_HeThong.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight (1)\obj\Debug\NSMoonLight.UserControls.UC_HoaDon.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\bin\Debug\NSMoonLight.exe.config
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\bin\Debug\NSMoonLight.exe
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\bin\Debug\NSMoonLight.pdb
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight.DangNhap.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight.DashBoard.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight.Gioithieu.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight.Properties.Resources.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_HeThong.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_HoaDon.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight .csproj.GenerateResource.cache
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight .csproj.CoreCompileInputs.cache
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight.exe
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight.pdb
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_QuanLycs.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_Sach.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight.Forms.ThemSach.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_TheLoai.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_NCC.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_Kho.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight.Forms.NhapSach.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight .csprojAssemblyReference.cache
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight.Forms.NhapKho.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight.Forms.XuatKho.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_TraCuu.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_SearchKM.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_SearchQD.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_SearchSach.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_SearchTL.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight.Forms.AddKM.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_AdKM.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_Admin.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight.Forms.AddNV.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_AddNV.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight.UserControls.ThanhToan.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_AdQD.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight.Forms.AddCongNo.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_AdCongNo.resources
+C:\Users\Thanh\Desktop\NSMoonLight (1)-20201227T045135Z-001\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_BaoCaoTK.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\bin\Debug\NSMoonLight.exe.config
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\bin\Debug\NSMoonLight.exe
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\bin\Debug\NSMoonLight.pdb
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight .csprojAssemblyReference.cache
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight.Forms.AddCongNo.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight.Forms.AddKM.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight.Forms.AddNV.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight.DangNhap.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight.DashBoard.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight.Gioithieu.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight.Forms.NhapKho.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight.Forms.NhapSach.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight.Forms.ThemSach.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight.Forms.XuatKho.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight.Properties.Resources.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight.UserControls.ThanhToan.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_AdCongNo.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_AddNV.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_AdKM.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_Admin.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_AdQD.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_BaoCaoTK.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_HeThong.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_HoaDon.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_Kho.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_NCC.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_QuanLycs.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_Sach.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_SearchKM.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_SearchQD.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_SearchSach.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_SearchTL.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_TheLoai.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight.UserControls.UC_TraCuu.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight .csproj.GenerateResource.cache
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight .csproj.CoreCompileInputs.cache
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight.exe
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\NSMoonLight\obj\Debug\NSMoonLight.pdb
