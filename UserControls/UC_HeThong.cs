@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using NSMoonLight.Forms;
 
 namespace NSMoonLight.UserControls
 {
@@ -25,6 +26,14 @@ namespace NSMoonLight.UserControls
         private void UC_HeThong_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            using(ChangePassword P = new ChangePassword())
+            {
+                P.ShowDialog();
+            }    
         }
     }
 }

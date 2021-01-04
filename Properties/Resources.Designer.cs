@@ -10,9 +10,8 @@
 
 namespace NSMoonLight.Properties {
     using System;
-    using System.Drawing;
-
-
+    
+    
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -24,9 +23,7 @@ namespace NSMoonLight.Properties {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
-        internal static Image customer_100px;
-        internal static Image market_square_48px;
-        internal static Image low_price_pound_48px;
+        
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
@@ -126,9 +123,59 @@ namespace NSMoonLight.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap close_window_48px {
+            get {
+                object obj = ResourceManager.GetObject("close_window_48px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap close_window_48px1 {
+            get {
+                object obj = ResourceManager.GetObject("close_window_48px1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap customer_100px {
+            get {
+                object obj = ResourceManager.GetObject("customer_100px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap download {
             get {
                 object obj = ResourceManager.GetObject("download", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap enlarge_100px {
+            get {
+                object obj = ResourceManager.GetObject("enlarge_100px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap enlarge_32px {
+            get {
+                object obj = ResourceManager.GetObject("enlarge_32px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -166,6 +213,26 @@ namespace NSMoonLight.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap heaven_stars_universe_star_night_background_galaxy_astronomy_dark {
+            get {
+                object obj = ResourceManager.GetObject("heaven-stars-universe-star-night-background-galaxy-astronomy-dark", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap heaven_stars_universe_star_night_background_galaxy_astronomy_dark1 {
+            get {
+                object obj = ResourceManager.GetObject("heaven-stars-universe-star-night-background-galaxy-astronomy-dark1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap help_32px {
             get {
                 object obj = ResourceManager.GetObject("help_32px", resourceCulture);
@@ -196,6 +263,16 @@ namespace NSMoonLight.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Hinh_nen_iphone_12__6_ {
+            get {
+                object obj = ResourceManager.GetObject("Hinh-nen-iphone-12 (6)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap home_32px {
             get {
                 object obj = ResourceManager.GetObject("home_32px", resourceCulture);
@@ -216,6 +293,26 @@ namespace NSMoonLight.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap horizontal_line_32px1 {
+            get {
+                object obj = ResourceManager.GetObject("horizontal_line_32px1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap horizontal_line_48px {
+            get {
+                object obj = ResourceManager.GetObject("horizontal_line_48px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icon_password_20 {
             get {
                 object obj = ResourceManager.GetObject("icon-password-20", resourceCulture);
@@ -226,9 +323,29 @@ namespace NSMoonLight.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap low_price_pound_48px {
+            get {
+                object obj = ResourceManager.GetObject("low_price_pound_48px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap maintenance_32px {
             get {
                 object obj = ResourceManager.GetObject("maintenance_32px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap market_square_48px {
+            get {
+                object obj = ResourceManager.GetObject("market_square_48px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -359,6 +476,46 @@ namespace NSMoonLight.Properties {
         internal static System.Drawing.Bitmap ss3 {
             get {
                 object obj = ResourceManager.GetObject("ss3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap time_48px {
+            get {
+                object obj = ResourceManager.GetObject("time_48px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap toggle_full_screen_48px {
+            get {
+                object obj = ResourceManager.GetObject("toggle_full_screen_48px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap toggle_full_screen_60px {
+            get {
+                object obj = ResourceManager.GetObject("toggle_full_screen_60px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap user_60px {
+            get {
+                object obj = ResourceManager.GetObject("user_60px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

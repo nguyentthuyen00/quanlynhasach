@@ -10,19 +10,14 @@ using System.Windows.Forms;
 
 namespace NSMoonLight.Forms
 {
-    public partial class ThemSach : Form
+    public partial class ChangePassword : Form
     {
-        public ThemSach()
+        public ChangePassword()
         {
             InitializeComponent();
         }
 
-        private void btnLuu_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnHuy_Click_1(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
             this.Close();
         }

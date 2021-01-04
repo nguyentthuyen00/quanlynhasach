@@ -118,14 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="horizontal_line_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\horizontal_line_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="blue_background_design-wallpaper-1280x800" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\blue_background_design-wallpaper-1280x800.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="book_shelf_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\book_shelf_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="gttgt1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gttgt1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-password-20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-password-20.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="help_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\help_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,11 +133,20 @@
   <data name="ss3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ss3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="horizontal_line_32px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\horizontal_line_32px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close_window_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close_window_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="maintenance_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\maintenance_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pngwing.com (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pngwing.com (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="market_square_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\market_square_48px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ss2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ss2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,11 +154,11 @@
   <data name="pngwing.com (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pngwing.com (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Hinh-nen-iphone-12 (6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hinh-nen-iphone-12 (6).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="admin_settings_male_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\admin_settings_male_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="gttgt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gttgt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="gttgt2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gttgt2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,20 +166,38 @@
   <data name="202-2026524_person-icon-default-user-icon-png" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\202-2026524_person-icon-default-user-icon-png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="home_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heaven-stars-universe-star-night-background-galaxy-astronomy-dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heaven-stars-universe-star-night-background-galaxy-astronomy-dark.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="shutdown_32px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\shutdown_32px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="search_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\search_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="close_window_48px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close_window_48px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enlarge_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enlarge_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="time_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\time_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngwing.com" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngwing.com.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="shutdown_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\shutdown_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="heaven-stars-universe-star-night-background-galaxy-astronomy-dark1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heaven-stars-universe-star-night-background-galaxy-astronomy-dark1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="cheque_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cheque_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon-password-20" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon-password-20.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,11 +208,20 @@
   <data name="search_32px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\search_32px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="low_price_pound_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\low_price_pound_48px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="book_shelf_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\book_shelf_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="help_32px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\help_32px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="gttgt1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gttgt1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="customer_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\customer_100px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="horizontal_line_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\horizontal_line_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hghjkl" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hghjkl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,13 +235,25 @@
   <data name="report_file_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\report_file_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="home_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\home_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="horizontal_line_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\horizontal_line_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gttgt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gttgt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="toggle_full_screen_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toggle_full_screen_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="toggle_full_screen_60px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toggle_full_screen_60px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enlarge_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enlarge_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ss" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ss.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pngwing.com" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pngwing.com.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="user_60px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_60px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

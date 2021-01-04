@@ -66,6 +66,12 @@
     <Compile Include="Forms\AddNV.Designer.cs">
       <DependentUpon>AddNV.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\ChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ChangePassword.Designer.cs">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\DangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,29 +90,11 @@
     <Compile Include="Forms\Gioithieu.Designer.cs">
       <DependentUpon>Gioithieu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\NhapKho.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\NhapKho.Designer.cs">
-      <DependentUpon>NhapKho.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\NhapSach.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\NhapSach.Designer.cs">
-      <DependentUpon>NhapSach.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\ThemSach.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\ThemSach.Designer.cs">
       <DependentUpon>ThemSach.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\XuatKho.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\XuatKho.Designer.cs">
-      <DependentUpon>XuatKho.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -116,35 +104,11 @@
     <Compile Include="UserControls\ThanhToan.Designer.cs">
       <DependentUpon>ThanhToan.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\UC_AdCongNo.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControls\UC_AdCongNo.Designer.cs">
-      <DependentUpon>UC_AdCongNo.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControls\UC_AddNV.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControls\UC_AddNV.Designer.cs">
-      <DependentUpon>UC_AddNV.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControls\UC_AdKM.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControls\UC_AdKM.Designer.cs">
-      <DependentUpon>UC_AdKM.cs</DependentUpon>
-    </Compile>
     <Compile Include="UserControls\UC_Admin.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UserControls\UC_Admin.Designer.cs">
       <DependentUpon>UC_Admin.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControls\UC_AdQD.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControls\UC_AdQD.Designer.cs">
-      <DependentUpon>UC_AdQD.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControls\UC_BaoCaoTK.cs">
       <SubType>UserControl</SubType>
@@ -164,59 +128,11 @@
     <Compile Include="UserControls\UC_HoaDon.Designer.cs">
       <DependentUpon>UC_HoaDon.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\UC_Kho.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControls\UC_Kho.Designer.cs">
-      <DependentUpon>UC_Kho.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControls\UC_NCC.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControls\UC_NCC.Designer.cs">
-      <DependentUpon>UC_NCC.cs</DependentUpon>
-    </Compile>
     <Compile Include="UserControls\UC_QuanLycs.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UserControls\UC_QuanLycs.Designer.cs">
       <DependentUpon>UC_QuanLycs.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControls\UC_Sach.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControls\UC_Sach.Designer.cs">
-      <DependentUpon>UC_Sach.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControls\UC_SearchKM.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControls\UC_SearchKM.Designer.cs">
-      <DependentUpon>UC_SearchKM.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControls\UC_SearchQD.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControls\UC_SearchQD.Designer.cs">
-      <DependentUpon>UC_SearchQD.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControls\UC_SearchSach.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControls\UC_SearchSach.Designer.cs">
-      <DependentUpon>UC_SearchSach.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControls\UC_SearchTL.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControls\UC_SearchTL.Designer.cs">
-      <DependentUpon>UC_SearchTL.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControls\UC_TheLoai.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControls\UC_TheLoai.Designer.cs">
-      <DependentUpon>UC_TheLoai.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControls\UC_TraCuu.cs">
       <SubType>UserControl</SubType>
@@ -233,6 +149,9 @@
     <EmbeddedResource Include="Forms\AddNV.resx">
       <DependentUpon>AddNV.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChangePassword.resx">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </EmbeddedResource>
@@ -242,17 +161,8 @@
     <EmbeddedResource Include="Forms\Gioithieu.resx">
       <DependentUpon>Gioithieu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NhapKho.resx">
-      <DependentUpon>NhapKho.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NhapSach.resx">
-      <DependentUpon>NhapSach.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\ThemSach.resx">
       <DependentUpon>ThemSach.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\XuatKho.resx">
-      <DependentUpon>XuatKho.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -267,20 +177,8 @@
     <EmbeddedResource Include="UserControls\ThanhToan.resx">
       <DependentUpon>ThanhToan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserControls\UC_AdCongNo.resx">
-      <DependentUpon>UC_AdCongNo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControls\UC_AddNV.resx">
-      <DependentUpon>UC_AddNV.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControls\UC_AdKM.resx">
-      <DependentUpon>UC_AdKM.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="UserControls\UC_Admin.resx">
       <DependentUpon>UC_Admin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControls\UC_AdQD.resx">
-      <DependentUpon>UC_AdQD.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\UC_BaoCaoTK.resx">
       <DependentUpon>UC_BaoCaoTK.cs</DependentUpon>
@@ -291,32 +189,8 @@
     <EmbeddedResource Include="UserControls\UC_HoaDon.resx">
       <DependentUpon>UC_HoaDon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserControls\UC_Kho.resx">
-      <DependentUpon>UC_Kho.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControls\UC_NCC.resx">
-      <DependentUpon>UC_NCC.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="UserControls\UC_QuanLycs.resx">
       <DependentUpon>UC_QuanLycs.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControls\UC_Sach.resx">
-      <DependentUpon>UC_Sach.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControls\UC_SearchKM.resx">
-      <DependentUpon>UC_SearchKM.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControls\UC_SearchQD.resx">
-      <DependentUpon>UC_SearchQD.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControls\UC_SearchSach.resx">
-      <DependentUpon>UC_SearchSach.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControls\UC_SearchTL.resx">
-      <DependentUpon>UC_SearchTL.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControls\UC_TheLoai.resx">
-      <DependentUpon>UC_TheLoai.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\UC_TraCuu.resx">
       <DependentUpon>UC_TraCuu.cs</DependentUpon>
@@ -425,8 +299,24 @@
     <None Include="Resources\pngwing.com.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\user_60px.png" />
+    <None Include="Resources\time_48px.png" />
+    <None Include="Resources\toggle_full_screen_60px.png" />
+    <None Include="Resources\toggle_full_screen_48px.png" />
+    <None Include="Resources\close_window_48px.png" />
+    <None Include="Resources\close_window_48px1.png" />
     <Content Include="Resources\customer_100px.png" />
+    <None Include="Resources\market_square_48px2.png" />
+    <None Include="Resources\Hinh-nen-iphone-12 %286%29.jpg" />
+    <None Include="Resources\customer_100px1.png" />
+    <None Include="Resources\heaven-stars-universe-star-night-background-galaxy-astronomy-dark.jpg" />
+    <None Include="Resources\heaven-stars-universe-star-night-background-galaxy-astronomy-dark1.jpg" />
+    <None Include="Resources\enlarge_100px.png" />
+    <None Include="Resources\enlarge_32px.png" />
+    <None Include="Resources\horizontal_line_48px.png" />
+    <None Include="Resources\horizontal_line_32px1.png" />
     <Content Include="Resources\low_price_pound_48px.png" />
+    <None Include="Resources\low_price_pound_48px1.png" />
     <Content Include="Resources\market_square_48px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

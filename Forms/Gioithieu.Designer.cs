@@ -36,14 +36,17 @@ namespace NSMoonLight
             this.button1 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -52,7 +55,7 @@ namespace NSMoonLight
             this.pictureBox1.Image = global::NSMoonLight.Properties.Resources.pngwing_com__2_;
             this.pictureBox1.Location = new System.Drawing.Point(791, 160);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(382, 393);
+            this.pictureBox1.Size = new System.Drawing.Size(382, 404);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -63,7 +66,7 @@ namespace NSMoonLight
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label1.ForeColor = System.Drawing.Color.FloralWhite;
-            this.label1.Location = new System.Drawing.Point(116, 285);
+            this.label1.Location = new System.Drawing.Point(116, 246);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(324, 41);
             this.label1.TabIndex = 1;
@@ -75,7 +78,7 @@ namespace NSMoonLight
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Segoe UI Black", 25F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.Gold;
-            this.label2.Location = new System.Drawing.Point(113, 326);
+            this.label2.Location = new System.Drawing.Point(113, 298);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(452, 57);
             this.label2.TabIndex = 2;
@@ -85,9 +88,9 @@ namespace NSMoonLight
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::NSMoonLight.Properties.Resources.hghjkl;
-            this.pictureBox2.Location = new System.Drawing.Point(490, 308);
+            this.pictureBox2.Location = new System.Drawing.Point(473, 246);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(442, 302);
+            this.pictureBox2.Size = new System.Drawing.Size(442, 364);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;
@@ -97,11 +100,11 @@ namespace NSMoonLight
             this.button1.BackColor = System.Drawing.Color.Goldenrod;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.DarkKhaki;
             this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonFace;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(219, 449);
+            this.button1.Location = new System.Drawing.Point(246, 436);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(194, 52);
             this.button1.TabIndex = 5;
@@ -115,7 +118,7 @@ namespace NSMoonLight
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.label3.ForeColor = System.Drawing.Color.FloralWhite;
-            this.label3.Location = new System.Drawing.Point(117, 395);
+            this.label3.Location = new System.Drawing.Point(117, 374);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(379, 32);
             this.label3.TabIndex = 6;
@@ -126,26 +129,13 @@ namespace NSMoonLight
             this.button2.BackColor = System.Drawing.Color.Transparent;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Image = global::NSMoonLight.Properties.Resources.ss3;
-            this.button2.Location = new System.Drawing.Point(1131, 1);
+            this.button2.Image = global::NSMoonLight.Properties.Resources.close_window_48px1;
+            this.button2.Location = new System.Drawing.Point(1148, 12);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(68, 50);
+            this.button2.Size = new System.Drawing.Size(53, 39);
             this.button2.TabIndex = 7;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Transparent;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Image = global::NSMoonLight.Properties.Resources.horizontal_line_32px;
-            this.button3.Location = new System.Drawing.Point(1068, 1);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(68, 50);
-            this.button3.TabIndex = 8;
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // pictureBox4
             // 
@@ -181,17 +171,40 @@ namespace NSMoonLight
             this.pictureBox3.TabIndex = 11;
             this.pictureBox3.TabStop = false;
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox5.Image = global::NSMoonLight.Properties.Resources.horizontal_line_32px1;
+            this.pictureBox5.Location = new System.Drawing.Point(1052, 11);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(46, 40);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 13;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox6.Image = global::NSMoonLight.Properties.Resources.toggle_full_screen_60px;
+            this.pictureBox6.Location = new System.Drawing.Point(1102, 11);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(46, 40);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 12;
+            this.pictureBox6.TabStop = false;
+            // 
             // Gioithieu
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
-            this.BackgroundImage = global::NSMoonLight.Properties.Resources.blue_background_design_wallpaper_1280x800;
+            this.BackgroundImage = global::NSMoonLight.Properties.Resources.heaven_stars_universe_star_night_background_galaxy_astronomy_dark1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1200, 720);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button1);
@@ -209,6 +222,8 @@ namespace NSMoonLight
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -223,9 +238,10 @@ namespace NSMoonLight
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox6;
     }
 }

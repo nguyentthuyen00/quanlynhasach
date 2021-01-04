@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using NSMoonLight.Forms;
 
 namespace NSMoonLight.UserControls
 {
@@ -15,43 +16,55 @@ namespace NSMoonLight.UserControls
         public UC_Admin()
         {
             InitializeComponent();
-            UC_AdKM KM = new UC_AdKM();
-            AddControlsToPanelAdmin(KM);
         }
-
-        private void panelAdmin_Paint(object sender, PaintEventArgs e)
+        private void tabCN_Click(object sender, EventArgs e)
         {
 
         }
-        private void AddControlsToPanelAdmin(Control c)
+
+        private void button2_Click(object sender, EventArgs e)
         {
-            c.Dock = DockStyle.Fill;
-            panelAdmin.Controls.Clear();
-            panelAdmin.Controls.Add(c);
+            using (AddKM KM = new AddKM())
+            {
+                KM.ShowDialog();
+            }
         }
 
-        private void btnKM_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-            UC_AdKM KM = new UC_AdKM();
-            AddControlsToPanelAdmin(KM);
+            using (AddKM KM = new AddKM())
+            {
+                KM.ShowDialog();
+            }
         }
 
-        private void btnNV_Click(object sender, EventArgs e)
+        private void button7_Click(object sender, EventArgs e)
         {
-            UC_AddNV NV = new UC_AddNV();
-            AddControlsToPanelAdmin(NV);
+            using (AddNV NV = new AddNV())
+            {
+                NV.ShowDialog();
+            }
         }
 
-        private void btnQD_Click(object sender, EventArgs e)
+        private void button6_Click(object sender, EventArgs e)
         {
-            UC_AdQD qd = new UC_AdQD();
-            AddControlsToPanelAdmin(qd);
+            using (AddNV NV = new AddNV())
+            {
+                NV.ShowDialog();
+            }
         }
 
-        private void btnCN_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
-            UC_AdCongNo no = new UC_AdCongNo();
-            AddControlsToPanelAdmin(no);
+
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            using (AddCongNo CN = new AddCongNo())
+            {
+                CN.ShowDialog();
+            }
         }
     }
 }
