@@ -25,7 +25,12 @@ namespace NSMoonLight.UserControls
 
         private void UC_HeThong_Load(object sender, EventArgs e)
         {
-
+            txtTen.Text = DTO.infoNhanVien.HoTenNV;
+            txtNS.Text = DTO.infoNhanVien.NgaySinh;
+            txtSDT.Text = DTO.infoNhanVien.SDT;
+            txtEmail.Text = DTO.infoNhanVien.Email;
+            txtGT.Text = DTO.infoNhanVien.GioiTinh;
+   
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -34,6 +39,11 @@ namespace NSMoonLight.UserControls
             {
                 P.ShowDialog();
             }    
+        }
+
+        private void txtLTK_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

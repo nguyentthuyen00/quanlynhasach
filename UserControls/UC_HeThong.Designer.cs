@@ -38,7 +38,7 @@ namespace NSMoonLight.UserControls
             this.txtNS = new System.Windows.Forms.TextBox();
             this.txtSDT = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
-            this.txtLTK = new System.Windows.Forms.TextBox();
+            this.txtGT = new System.Windows.Forms.TextBox();
             this.btnCN = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -108,9 +108,9 @@ namespace NSMoonLight.UserControls
             this.labelLTK.ForeColor = System.Drawing.Color.Navy;
             this.labelLTK.Location = new System.Drawing.Point(205, 364);
             this.labelLTK.Name = "labelLTK";
-            this.labelLTK.Size = new System.Drawing.Size(155, 28);
+            this.labelLTK.Size = new System.Drawing.Size(104, 28);
             this.labelLTK.TabIndex = 6;
-            this.labelLTK.Text = "Loại Tài Khoản:";
+            this.labelLTK.Text = "Giới Tính:";
             this.labelLTK.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // txtTen
@@ -145,13 +145,14 @@ namespace NSMoonLight.UserControls
             this.txtEmail.Size = new System.Drawing.Size(256, 34);
             this.txtEmail.TabIndex = 10;
             // 
-            // txtLTK
+            // txtGT
             // 
-            this.txtLTK.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtLTK.Location = new System.Drawing.Point(403, 362);
-            this.txtLTK.Name = "txtLTK";
-            this.txtLTK.Size = new System.Drawing.Size(256, 34);
-            this.txtLTK.TabIndex = 11;
+            this.txtGT.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGT.Location = new System.Drawing.Point(403, 362);
+            this.txtGT.Name = "txtGT";
+            this.txtGT.Size = new System.Drawing.Size(256, 34);
+            this.txtGT.TabIndex = 11;
+            this.txtGT.TextChanged += new System.EventHandler(this.txtLTK_TextChanged);
             // 
             // btnCN
             // 
@@ -226,7 +227,7 @@ namespace NSMoonLight.UserControls
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnCN);
-            this.Controls.Add(this.txtLTK);
+            this.Controls.Add(this.txtGT);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtSDT);
             this.Controls.Add(this.txtNS);
@@ -259,7 +260,7 @@ namespace NSMoonLight.UserControls
         private System.Windows.Forms.TextBox txtNS;
         private System.Windows.Forms.TextBox txtSDT;
         private System.Windows.Forms.TextBox txtEmail;
-        private System.Windows.Forms.TextBox txtLTK;
+        private System.Windows.Forms.TextBox txtGT;
         private System.Windows.Forms.Button btnCN;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;

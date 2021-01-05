@@ -8,7 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Windows.Forms;
+using System.Data.SqlClient;
 namespace NSMoonLight
 {
     public partial class DashBoard : Form
@@ -20,12 +21,59 @@ namespace NSMoonLight
         {
             InitializeComponent();
             timerTime.Start();
+            label3.Text = DTO.infoTaiKhoan.TenHienThi;
+            if (DTO.infoTaiKhoan.Quyen == "0")
+                label5.Text = "Admin";
+            else if (DTO.infoTaiKhoan.Quyen == "2")
+            {
+                label5.Text = "Quản Lý";
+                btnAdmin.Enabled = false;
+                btnAdmin.BackColor = Color.SlateGray;
+            }
+            else
+            {
+                label5.Text = "Nhân viên bán hàng";
+                btnAdmin.Enabled = false;
+                btnAdmin.BackColor = Color.SlateGray;
+                btnBaoCaoTK.Enabled = false;
+                btnBaoCaoTK.BackColor = Color.SlateGray;
+                btnQuanLy.Enabled = false;
+                btnQuanLy.BackColor = Color.SlateGray;
+            }
+            LayinfoNhanVien(DTO.infoTaiKhoan.MaNV);
             PanelWidth = panelLeft.Width;
             isCollapsed = false;
             UC_HeThong uht = new UC_HeThong();
             AddControlsToPanel(uht);
         }
-
+        private void LayinfoNhanVien(string MaNhanVien)
+        {
+            SqlCommand cdm = new SqlCommand("select * from NHANVIEN where MaNV='" + MaNhanVien + "'", DAO.functionconnect.conn);
+            SqlDataAdapter da = new SqlDataAdapter(cdm);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            if (dt != null)
+            {
+                foreach (DataRow dr in dt.Rows)
+                {
+                    string gt;
+                    DTO.infoNhanVien.HoTenNV = dr["HoTenNV"].ToString();
+                    DTO.infoNhanVien.Diachi = dr["Diachi"].ToString();
+                    DTO.infoNhanVien.SDT = dr["SDT"].ToString();
+                    gt = dr["GioiTinh"].ToString();
+                    DTO.infoNhanVien.NgaySinh = dr["NgaySinh"].ToString();
+                    DTO.infoNhanVien.Email = dr["Email"].ToString();
+                    if (gt == "0")
+                        DTO.infoNhanVien.GioiTinh = "Nam";
+                    else if (gt == "1")
+                        DTO.infoNhanVien.GioiTinh = "Nữ";
+                    else
+                        DTO.infoNhanVien.GioiTinh = "Khác";
+                }
+            }
+            else
+                MessageBox.Show("không tìm thấy  dữ liệu");
+        }
         private void button5_Click(object sender, EventArgs e)
         {
             moveSidePanel(btnAdmin);
@@ -93,6 +141,7 @@ namespace NSMoonLight
             moveSidePanel(btnHeThong);
             UC_HeThong uht = new UC_HeThong();
             AddControlsToPanel(uht);
+
         }
 
         private void timerTime_Tick(object sender, EventArgs e)
@@ -147,6 +196,11 @@ namespace NSMoonLight
             label6_Click(sender, e);
         }
         private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }

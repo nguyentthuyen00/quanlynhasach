@@ -150,3 +150,27 @@ C:\Users\Thanh\quanlynhasach\obj\Debug\NSMoonLight .csproj.CoreCompileInputs.cac
 C:\Users\Thanh\quanlynhasach\obj\Debug\NSMoonLight.exe
 C:\Users\Thanh\quanlynhasach\obj\Debug\NSMoonLight.pdb
 C:\Users\Thanh\quanlynhasach\obj\Debug\NSMoonLight.Forms.ChangePassword.resources
+C:\Users\Vostro 5568\Documents\quanlynhasach\bin\Debug\NSMoonLight.exe.config
+C:\Users\Vostro 5568\Documents\quanlynhasach\bin\Debug\NSMoonLight.exe
+C:\Users\Vostro 5568\Documents\quanlynhasach\bin\Debug\NSMoonLight.pdb
+C:\Users\Vostro 5568\Documents\quanlynhasach\obj\Debug\NSMoonLight .csprojAssemblyReference.cache
+C:\Users\Vostro 5568\Documents\quanlynhasach\obj\Debug\NSMoonLight.Forms.AddCongNo.resources
+C:\Users\Vostro 5568\Documents\quanlynhasach\obj\Debug\NSMoonLight.Forms.AddKM.resources
+C:\Users\Vostro 5568\Documents\quanlynhasach\obj\Debug\NSMoonLight.Forms.AddNV.resources
+C:\Users\Vostro 5568\Documents\quanlynhasach\obj\Debug\NSMoonLight.Forms.ChangePassword.resources
+C:\Users\Vostro 5568\Documents\quanlynhasach\obj\Debug\NSMoonLight.DangNhap.resources
+C:\Users\Vostro 5568\Documents\quanlynhasach\obj\Debug\NSMoonLight.DashBoard.resources
+C:\Users\Vostro 5568\Documents\quanlynhasach\obj\Debug\NSMoonLight.Gioithieu.resources
+C:\Users\Vostro 5568\Documents\quanlynhasach\obj\Debug\NSMoonLight.Forms.ThemSach.resources
+C:\Users\Vostro 5568\Documents\quanlynhasach\obj\Debug\NSMoonLight.Properties.Resources.resources
+C:\Users\Vostro 5568\Documents\quanlynhasach\obj\Debug\NSMoonLight.UserControls.ThanhToan.resources
+C:\Users\Vostro 5568\Documents\quanlynhasach\obj\Debug\NSMoonLight.UserControls.UC_Admin.resources
+C:\Users\Vostro 5568\Documents\quanlynhasach\obj\Debug\NSMoonLight.UserControls.UC_BaoCaoTK.resources
+C:\Users\Vostro 5568\Documents\quanlynhasach\obj\Debug\NSMoonLight.UserControls.UC_HeThong.resources
+C:\Users\Vostro 5568\Documents\quanlynhasach\obj\Debug\NSMoonLight.UserControls.UC_HoaDon.resources
+C:\Users\Vostro 5568\Documents\quanlynhasach\obj\Debug\NSMoonLight.UserControls.UC_QuanLycs.resources
+C:\Users\Vostro 5568\Documents\quanlynhasach\obj\Debug\NSMoonLight.UserControls.UC_TraCuu.resources
+C:\Users\Vostro 5568\Documents\quanlynhasach\obj\Debug\NSMoonLight .csproj.GenerateResource.cache
+C:\Users\Vostro 5568\Documents\quanlynhasach\obj\Debug\NSMoonLight .csproj.CoreCompileInputs.cache
+C:\Users\Vostro 5568\Documents\quanlynhasach\obj\Debug\NSMoonLight.exe
+C:\Users\Vostro 5568\Documents\quanlynhasach\obj\Debug\NSMoonLight.pdb

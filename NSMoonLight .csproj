@@ -48,6 +48,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAO\fkiemtra.cs" />
+    <Compile Include="DAO\functionconnect.cs" />
+    <Compile Include="DTO\connectionstring.cs" />
+    <Compile Include="DTO\infoNhanVien.cs" />
+    <Compile Include="DTO\infoTaiKhoan.cs" />
     <Compile Include="Forms\AddCongNo.cs">
       <SubType>Form</SubType>
     </Compile>
