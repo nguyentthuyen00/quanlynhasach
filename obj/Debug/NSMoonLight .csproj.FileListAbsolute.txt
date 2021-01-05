@@ -174,3 +174,27 @@ C:\Users\Vostro 5568\Documents\quanlynhasach\obj\Debug\NSMoonLight .csproj.Gener
 C:\Users\Vostro 5568\Documents\quanlynhasach\obj\Debug\NSMoonLight .csproj.CoreCompileInputs.cache
 C:\Users\Vostro 5568\Documents\quanlynhasach\obj\Debug\NSMoonLight.exe
 C:\Users\Vostro 5568\Documents\quanlynhasach\obj\Debug\NSMoonLight.pdb
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\quanlynhasach\bin\Debug\NSMoonLight.exe.config
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\quanlynhasach\bin\Debug\NSMoonLight.exe
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\quanlynhasach\bin\Debug\NSMoonLight.pdb
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\quanlynhasach\obj\Debug\NSMoonLight .csprojAssemblyReference.cache
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\quanlynhasach\obj\Debug\NSMoonLight.Forms.AddCongNo.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\quanlynhasach\obj\Debug\NSMoonLight.Forms.AddKM.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\quanlynhasach\obj\Debug\NSMoonLight.Forms.AddNV.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\quanlynhasach\obj\Debug\NSMoonLight.Forms.ChangePassword.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\quanlynhasach\obj\Debug\NSMoonLight.DangNhap.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\quanlynhasach\obj\Debug\NSMoonLight.DashBoard.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\quanlynhasach\obj\Debug\NSMoonLight.Gioithieu.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\quanlynhasach\obj\Debug\NSMoonLight.Forms.ThemSach.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\quanlynhasach\obj\Debug\NSMoonLight.Properties.Resources.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\quanlynhasach\obj\Debug\NSMoonLight.UserControls.ThanhToan.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\quanlynhasach\obj\Debug\NSMoonLight.UserControls.UC_Admin.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\quanlynhasach\obj\Debug\NSMoonLight.UserControls.UC_BaoCaoTK.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\quanlynhasach\obj\Debug\NSMoonLight.UserControls.UC_HeThong.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\quanlynhasach\obj\Debug\NSMoonLight.UserControls.UC_HoaDon.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\quanlynhasach\obj\Debug\NSMoonLight.UserControls.UC_QuanLycs.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\quanlynhasach\obj\Debug\NSMoonLight.UserControls.UC_TraCuu.resources
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\quanlynhasach\obj\Debug\NSMoonLight .csproj.GenerateResource.cache
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\quanlynhasach\obj\Debug\NSMoonLight .csproj.CoreCompileInputs.cache
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\quanlynhasach\obj\Debug\NSMoonLight.exe
+D:\HK V 2020-2021\Thứ 5 Nhập môn CNPM\Đồ án\quanlynhasach\obj\Debug\NSMoonLight.pdb

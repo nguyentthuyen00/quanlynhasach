@@ -8,6 +8,6 @@ namespace NSMoonLight.DTO
 {
     class connectionstring
     {
-        public static string connstring = @"Data Source=DESKTOP-IEMIUCU\SQLEXPRESS;Initial Catalog=QLNHASACH;Integrated Security=True";
+        public static string connstring = @"Data Source=DESKTOP-UCIFD6J;Initial Catalog=QLNHASACH;Integrated Security=True";
     }
 }
