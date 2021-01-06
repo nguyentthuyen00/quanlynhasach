@@ -98,6 +98,7 @@ namespace NSMoonLight
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Goldenrod;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.DarkKhaki;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -127,6 +128,7 @@ namespace NSMoonLight
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Image = global::NSMoonLight.Properties.Resources.close_window_48px1;

@@ -32,7 +32,7 @@ namespace NSMoonLight
             DangNhap f = new DangNhap();
             this.Hide();
             f.ShowDialog();
-            this.Show();
+            /*this.Show();*/
         }
 
         private void button2_Click(object sender, EventArgs e)

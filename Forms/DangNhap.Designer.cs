@@ -116,7 +116,7 @@ namespace NSMoonLight
             this.txtpassword.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.txtpassword.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtpassword.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.txtpassword.Location = new System.Drawing.Point(103, 10);
+            this.txtpassword.Location = new System.Drawing.Point(112, 10);
             this.txtpassword.Name = "txtpassword";
             this.txtpassword.Size = new System.Drawing.Size(176, 27);
             this.txtpassword.TabIndex = 14;

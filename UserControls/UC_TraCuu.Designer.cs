@@ -32,27 +32,11 @@ namespace NSMoonLight.UserControls
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_TraCuu));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabSach = new System.Windows.Forms.TabPage();
-            this.tabTL = new System.Windows.Forms.TabPage();
-            this.tabKM = new System.Windows.Forms.TabPage();
-            this.tabQD = new System.Windows.Forms.TabPage();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.label4 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.tabTL = new System.Windows.Forms.TabPage();
             this.label5 = new System.Windows.Forms.Label();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -67,6 +51,8 @@ namespace NSMoonLight.UserControls
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.tabKM = new System.Windows.Forms.TabPage();
             this.panel1 = new System.Windows.Forms.Panel();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.lTenKM = new System.Windows.Forms.Label();
@@ -93,6 +79,8 @@ namespace NSMoonLight.UserControls
             this.label7 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
             this.textBox8 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.tabQD = new System.Windows.Forms.TabPage();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
             this.textBox9 = new System.Windows.Forms.TextBox();
@@ -108,16 +96,26 @@ namespace NSMoonLight.UserControls
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.MaSach = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NhaCungCap = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.GiaNhap = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabControl1.SuspendLayout();
             this.tabSach.SuspendLayout();
-            this.tabTL.SuspendLayout();
-            this.tabKM.SuspendLayout();
-            this.tabQD.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.tabTL.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            this.tabKM.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
+            this.tabQD.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -138,10 +136,6 @@ namespace NSMoonLight.UserControls
             // 
             this.tabSach.BackColor = System.Drawing.Color.White;
             this.tabSach.Controls.Add(this.label4);
-            this.tabSach.Controls.Add(this.radioButton4);
-            this.tabSach.Controls.Add(this.radioButton3);
-            this.tabSach.Controls.Add(this.radioButton2);
-            this.tabSach.Controls.Add(this.radioButton1);
             this.tabSach.Controls.Add(this.dataGridView1);
             this.tabSach.Controls.Add(this.button1);
             this.tabSach.Controls.Add(this.textBox1);
@@ -151,6 +145,70 @@ namespace NSMoonLight.UserControls
             this.tabSach.Size = new System.Drawing.Size(933, 540);
             this.tabSach.TabIndex = 0;
             this.tabSach.Text = "Sách";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI Black", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label4.ForeColor = System.Drawing.Color.Navy;
+            this.label4.Location = new System.Drawing.Point(329, 17);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(238, 38);
+            this.label4.TabIndex = 14;
+            this.label4.Text = "TÌM KIẾM SÁCH";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.MaSach,
+            this.Column2,
+            this.Column3,
+            this.Column5,
+            this.Column4,
+            this.NhaCungCap,
+            this.GiaNhap,
+            this.Column6,
+            this.Column7});
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dataGridView1.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.dataGridView1.Location = new System.Drawing.Point(3, 132);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(927, 405);
+            this.dataGridView1.TabIndex = 9;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.DarkOrange;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(587, 71);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(111, 39);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Tìm kiếm";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.White;
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.textBox1.ForeColor = System.Drawing.Color.Navy;
+            this.textBox1.Location = new System.Drawing.Point(204, 73);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(363, 34);
+            this.textBox1.TabIndex = 7;
+            this.textBox1.Text = "Nhập tên sách";
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // tabTL
             // 
@@ -173,254 +231,6 @@ namespace NSMoonLight.UserControls
             this.tabTL.Size = new System.Drawing.Size(933, 540);
             this.tabTL.TabIndex = 1;
             this.tabTL.Text = "Thể Loại";
-            // 
-            // tabKM
-            // 
-            this.tabKM.BackColor = System.Drawing.Color.White;
-            this.tabKM.Controls.Add(this.panel1);
-            this.tabKM.Controls.Add(this.dataGridView3);
-            this.tabKM.Controls.Add(this.dataGridView4);
-            this.tabKM.Controls.Add(this.label6);
-            this.tabKM.Controls.Add(this.label7);
-            this.tabKM.Controls.Add(this.button6);
-            this.tabKM.Controls.Add(this.textBox8);
-            this.tabKM.Controls.Add(this.label2);
-            this.tabKM.Location = new System.Drawing.Point(4, 32);
-            this.tabKM.Name = "tabKM";
-            this.tabKM.Padding = new System.Windows.Forms.Padding(3);
-            this.tabKM.Size = new System.Drawing.Size(933, 540);
-            this.tabKM.TabIndex = 2;
-            this.tabKM.Text = "Khuyến Mãi";
-            // 
-            // tabQD
-            // 
-            this.tabQD.BackColor = System.Drawing.Color.White;
-            this.tabQD.Controls.Add(this.panel2);
-            this.tabQD.Controls.Add(this.label8);
-            this.tabQD.Controls.Add(this.textBox9);
-            this.tabQD.Controls.Add(this.label9);
-            this.tabQD.Controls.Add(this.textBox10);
-            this.tabQD.Controls.Add(this.label10);
-            this.tabQD.Controls.Add(this.textBox11);
-            this.tabQD.Controls.Add(this.button7);
-            this.tabQD.Controls.Add(this.textBox12);
-            this.tabQD.Controls.Add(this.textBox13);
-            this.tabQD.Controls.Add(this.label11);
-            this.tabQD.Controls.Add(this.textBox14);
-            this.tabQD.Controls.Add(this.label12);
-            this.tabQD.Controls.Add(this.label13);
-            this.tabQD.Controls.Add(this.label14);
-            this.tabQD.Controls.Add(this.label3);
-            this.tabQD.Location = new System.Drawing.Point(4, 32);
-            this.tabQD.Name = "tabQD";
-            this.tabQD.Padding = new System.Windows.Forms.Padding(3);
-            this.tabQD.Size = new System.Drawing.Size(933, 540);
-            this.tabQD.TabIndex = 3;
-            this.tabQD.Text = "Quy Định";
-            this.tabQD.Click += new System.EventHandler(this.tabQD_Click);
-            // 
-            // radioButton4
-            // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.radioButton4.ForeColor = System.Drawing.Color.Navy;
-            this.radioButton4.Location = new System.Drawing.Point(606, 185);
-            this.radioButton4.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(110, 32);
-            this.radioButton4.TabIndex = 13;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Năm XB";
-            this.radioButton4.UseVisualStyleBackColor = true;
-            // 
-            // radioButton3
-            // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.radioButton3.ForeColor = System.Drawing.Color.Navy;
-            this.radioButton3.Location = new System.Drawing.Point(493, 185);
-            this.radioButton3.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(75, 32);
-            this.radioButton3.TabIndex = 12;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "NXB";
-            this.radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.radioButton2.ForeColor = System.Drawing.Color.Navy;
-            this.radioButton2.Location = new System.Drawing.Point(366, 185);
-            this.radioButton2.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(99, 32);
-            this.radioButton2.TabIndex = 11;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Tác giả";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.radioButton1.ForeColor = System.Drawing.Color.Navy;
-            this.radioButton1.Location = new System.Drawing.Point(215, 185);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(4);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(109, 32);
-            this.radioButton1.TabIndex = 10;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Thể loại";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5,
-            this.Column6,
-            this.Column7});
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dataGridView1.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 258);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(927, 279);
-            this.dataGridView1.TabIndex = 9;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "STT";
-            this.Column1.MinimumWidth = 6;
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 125;
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Tên Sách";
-            this.Column2.MinimumWidth = 6;
-            this.Column2.Name = "Column2";
-            this.Column2.Width = 125;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Thể Loại";
-            this.Column3.MinimumWidth = 6;
-            this.Column3.Name = "Column3";
-            this.Column3.Width = 125;
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "NXB";
-            this.Column4.MinimumWidth = 6;
-            this.Column4.Name = "Column4";
-            this.Column4.Width = 125;
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "Tác giả";
-            this.Column5.MinimumWidth = 6;
-            this.Column5.Name = "Column5";
-            this.Column5.Width = 125;
-            // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "Giá Bán";
-            this.Column6.MinimumWidth = 6;
-            this.Column6.Name = "Column6";
-            this.Column6.Width = 125;
-            // 
-            // Column7
-            // 
-            this.Column7.HeaderText = "Số Lượng";
-            this.Column7.MinimumWidth = 6;
-            this.Column7.Name = "Column7";
-            this.Column7.Width = 125;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.DarkOrange;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(598, 100);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(111, 39);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Tìm kiếm";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.textBox1.ForeColor = System.Drawing.Color.Navy;
-            this.textBox1.Location = new System.Drawing.Point(215, 102);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(363, 34);
-            this.textBox1.TabIndex = 7;
-            this.textBox1.Text = "Nhập tên sách";
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI Black", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label4.ForeColor = System.Drawing.Color.Navy;
-            this.label4.Location = new System.Drawing.Point(355, 14);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(238, 38);
-            this.label4.TabIndex = 14;
-            this.label4.Text = "TÌM KIẾM SÁCH";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Black", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label1.ForeColor = System.Drawing.Color.Navy;
-            this.label1.Location = new System.Drawing.Point(355, 14);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(291, 38);
-            this.label1.TabIndex = 15;
-            this.label1.Text = "TÌM KIẾM THỂ LOẠI";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI Black", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label2.ForeColor = System.Drawing.Color.Navy;
-            this.label2.Location = new System.Drawing.Point(355, 14);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(346, 38);
-            this.label2.TabIndex = 15;
-            this.label2.Text = "TÌM KIẾM KHUYẾN MÃI";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI Black", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label3.ForeColor = System.Drawing.Color.Navy;
-            this.label3.Location = new System.Drawing.Point(355, 14);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(305, 38);
-            this.label3.TabIndex = 15;
-            this.label3.Text = "TÌM KIẾM QUY ĐỊNH";
             // 
             // label5
             // 
@@ -592,6 +402,36 @@ namespace NSMoonLight.UserControls
             this.button5.TabIndex = 28;
             this.button5.Text = "Sửa";
             this.button5.UseVisualStyleBackColor = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI Black", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label1.ForeColor = System.Drawing.Color.Navy;
+            this.label1.Location = new System.Drawing.Point(355, 14);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(291, 38);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "TÌM KIẾM THỂ LOẠI";
+            // 
+            // tabKM
+            // 
+            this.tabKM.BackColor = System.Drawing.Color.White;
+            this.tabKM.Controls.Add(this.panel1);
+            this.tabKM.Controls.Add(this.dataGridView3);
+            this.tabKM.Controls.Add(this.dataGridView4);
+            this.tabKM.Controls.Add(this.label6);
+            this.tabKM.Controls.Add(this.label7);
+            this.tabKM.Controls.Add(this.button6);
+            this.tabKM.Controls.Add(this.textBox8);
+            this.tabKM.Controls.Add(this.label2);
+            this.tabKM.Location = new System.Drawing.Point(4, 32);
+            this.tabKM.Name = "tabKM";
+            this.tabKM.Padding = new System.Windows.Forms.Padding(3);
+            this.tabKM.Size = new System.Drawing.Size(933, 540);
+            this.tabKM.TabIndex = 2;
+            this.tabKM.Text = "Khuyến Mãi";
             // 
             // panel1
             // 
@@ -850,6 +690,45 @@ namespace NSMoonLight.UserControls
             this.textBox8.Size = new System.Drawing.Size(371, 34);
             this.textBox8.TabIndex = 20;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI Black", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label2.ForeColor = System.Drawing.Color.Navy;
+            this.label2.Location = new System.Drawing.Point(355, 14);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(346, 38);
+            this.label2.TabIndex = 15;
+            this.label2.Text = "TÌM KIẾM KHUYẾN MÃI";
+            // 
+            // tabQD
+            // 
+            this.tabQD.BackColor = System.Drawing.Color.White;
+            this.tabQD.Controls.Add(this.panel2);
+            this.tabQD.Controls.Add(this.label8);
+            this.tabQD.Controls.Add(this.textBox9);
+            this.tabQD.Controls.Add(this.label9);
+            this.tabQD.Controls.Add(this.textBox10);
+            this.tabQD.Controls.Add(this.label10);
+            this.tabQD.Controls.Add(this.textBox11);
+            this.tabQD.Controls.Add(this.button7);
+            this.tabQD.Controls.Add(this.textBox12);
+            this.tabQD.Controls.Add(this.textBox13);
+            this.tabQD.Controls.Add(this.label11);
+            this.tabQD.Controls.Add(this.textBox14);
+            this.tabQD.Controls.Add(this.label12);
+            this.tabQD.Controls.Add(this.label13);
+            this.tabQD.Controls.Add(this.label14);
+            this.tabQD.Controls.Add(this.label3);
+            this.tabQD.Location = new System.Drawing.Point(4, 32);
+            this.tabQD.Name = "tabQD";
+            this.tabQD.Padding = new System.Windows.Forms.Padding(3);
+            this.tabQD.Size = new System.Drawing.Size(933, 540);
+            this.tabQD.TabIndex = 3;
+            this.tabQD.Text = "Quy Định";
+            this.tabQD.Click += new System.EventHandler(this.tabQD_Click);
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Navy;
@@ -1000,6 +879,81 @@ namespace NSMoonLight.UserControls
             this.label14.TabIndex = 16;
             this.label14.Text = "Nhập Sách";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI Black", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label3.ForeColor = System.Drawing.Color.Navy;
+            this.label3.Location = new System.Drawing.Point(355, 14);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(305, 38);
+            this.label3.TabIndex = 15;
+            this.label3.Text = "TÌM KIẾM QUY ĐỊNH";
+            // 
+            // MaSach
+            // 
+            this.MaSach.HeaderText = "Mã sách";
+            this.MaSach.MinimumWidth = 6;
+            this.MaSach.Name = "MaSach";
+            this.MaSach.Width = 125;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Tên Sách";
+            this.Column2.MinimumWidth = 6;
+            this.Column2.Name = "Column2";
+            this.Column2.Width = 125;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Thể Loại";
+            this.Column3.MinimumWidth = 6;
+            this.Column3.Name = "Column3";
+            this.Column3.Width = 125;
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "Tác giả";
+            this.Column5.MinimumWidth = 6;
+            this.Column5.Name = "Column5";
+            this.Column5.Width = 125;
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "NXB";
+            this.Column4.MinimumWidth = 6;
+            this.Column4.Name = "Column4";
+            this.Column4.Width = 125;
+            // 
+            // NhaCungCap
+            // 
+            this.NhaCungCap.HeaderText = "NCC";
+            this.NhaCungCap.MinimumWidth = 6;
+            this.NhaCungCap.Name = "NhaCungCap";
+            this.NhaCungCap.Width = 125;
+            // 
+            // GiaNhap
+            // 
+            this.GiaNhap.HeaderText = "Giá Nhập";
+            this.GiaNhap.MinimumWidth = 6;
+            this.GiaNhap.Name = "GiaNhap";
+            this.GiaNhap.Width = 125;
+            // 
+            // Column6
+            // 
+            this.Column6.HeaderText = "Giá Bán";
+            this.Column6.MinimumWidth = 6;
+            this.Column6.Name = "Column6";
+            this.Column6.Width = 125;
+            // 
+            // Column7
+            // 
+            this.Column7.HeaderText = "Số Lượng";
+            this.Column7.MinimumWidth = 6;
+            this.Column7.Name = "Column7";
+            this.Column7.Width = 125;
+            // 
             // UC_TraCuu
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -1010,18 +964,18 @@ namespace NSMoonLight.UserControls
             this.tabControl1.ResumeLayout(false);
             this.tabSach.ResumeLayout(false);
             this.tabSach.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tabTL.ResumeLayout(false);
             this.tabTL.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.tabKM.ResumeLayout(false);
             this.tabKM.PerformLayout();
-            this.tabQD.ResumeLayout(false);
-            this.tabQD.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
+            this.tabQD.ResumeLayout(false);
+            this.tabQD.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1033,18 +987,7 @@ namespace NSMoonLight.UserControls
         private System.Windows.Forms.TabPage tabTL;
         private System.Windows.Forms.TabPage tabKM;
         private System.Windows.Forms.TabPage tabQD;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label4;
@@ -1106,5 +1049,14 @@ namespace NSMoonLight.UserControls
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MaSach;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NhaCungCap;
+        private System.Windows.Forms.DataGridViewTextBoxColumn GiaNhap;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
     }
 }
