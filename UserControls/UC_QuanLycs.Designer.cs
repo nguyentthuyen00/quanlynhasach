@@ -29,6 +29,11 @@ namespace NSMoonLight.UserControls
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_QuanLycs));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -37,24 +42,11 @@ namespace NSMoonLight.UserControls
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_QuanLycs));
             this.tabQuanLy = new System.Windows.Forms.TabControl();
             this.tabQLSach = new System.Windows.Forms.TabPage();
             this.btnSearchBooks = new System.Windows.Forms.Button();
             this.tbTKSach = new System.Windows.Forms.TextBox();
             this.dtgvSach = new System.Windows.Forms.DataGridView();
-            this.MASACH = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TenSach = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TACGIA = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.MANHAXB = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.MANHACUNGCAP = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.MATHELOAI = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.GIANHAP = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.GIABAN = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnXoaSach = new System.Windows.Forms.Button();
             this.btnSuaSach = new System.Windows.Forms.Button();
             this.btnThemSach = new System.Windows.Forms.Button();
@@ -116,6 +108,14 @@ namespace NSMoonLight.UserControls
             this.label19 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.MASACH = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TenSach = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TACGIA = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NXB = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NCC = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TL = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.GIANHAP = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.GIABAN = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabQuanLy.SuspendLayout();
             this.tabQLSach.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvSach)).BeginInit();
@@ -192,9 +192,9 @@ namespace NSMoonLight.UserControls
             this.MASACH,
             this.TenSach,
             this.TACGIA,
-            this.MANHAXB,
-            this.MANHACUNGCAP,
-            this.MATHELOAI,
+            this.NXB,
+            this.NCC,
+            this.TL,
             this.GIANHAP,
             this.GIABAN});
             this.dtgvSach.Location = new System.Drawing.Point(6, 184);
@@ -203,114 +203,6 @@ namespace NSMoonLight.UserControls
             this.dtgvSach.RowTemplate.Height = 24;
             this.dtgvSach.Size = new System.Drawing.Size(921, 350);
             this.dtgvSach.TabIndex = 15;
-            // 
-            // MASACH
-            // 
-            this.MASACH.DataPropertyName = "MASACH";
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            this.MASACH.DefaultCellStyle = dataGridViewCellStyle1;
-            this.MASACH.Frozen = true;
-            this.MASACH.HeaderText = "Mã sách";
-            this.MASACH.MinimumWidth = 6;
-            this.MASACH.Name = "MASACH";
-            this.MASACH.ReadOnly = true;
-            this.MASACH.Width = 75;
-            // 
-            // TenSach
-            // 
-            this.TenSach.DataPropertyName = "TenSach";
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
-            this.TenSach.DefaultCellStyle = dataGridViewCellStyle2;
-            this.TenSach.Frozen = true;
-            this.TenSach.HeaderText = "Tên sách";
-            this.TenSach.MinimumWidth = 6;
-            this.TenSach.Name = "TenSach";
-            this.TenSach.ReadOnly = true;
-            this.TenSach.Width = 125;
-            // 
-            // TACGIA
-            // 
-            this.TACGIA.DataPropertyName = "TACGIA";
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            this.TACGIA.DefaultCellStyle = dataGridViewCellStyle3;
-            this.TACGIA.Frozen = true;
-            this.TACGIA.HeaderText = "Tác giả";
-            this.TACGIA.MinimumWidth = 6;
-            this.TACGIA.Name = "TACGIA";
-            this.TACGIA.ReadOnly = true;
-            this.TACGIA.Width = 125;
-            // 
-            // MANHAXB
-            // 
-            this.MANHAXB.DataPropertyName = "MANHAXB";
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
-            this.MANHAXB.DefaultCellStyle = dataGridViewCellStyle4;
-            this.MANHAXB.Frozen = true;
-            this.MANHAXB.HeaderText = "Nhà xuất bản";
-            this.MANHAXB.MinimumWidth = 6;
-            this.MANHAXB.Name = "MANHAXB";
-            this.MANHAXB.ReadOnly = true;
-            this.MANHAXB.Width = 125;
-            // 
-            // MANHACUNGCAP
-            // 
-            this.MANHACUNGCAP.DataPropertyName = "MANHACUNGCAP";
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
-            this.MANHACUNGCAP.DefaultCellStyle = dataGridViewCellStyle5;
-            this.MANHACUNGCAP.Frozen = true;
-            this.MANHACUNGCAP.HeaderText = "Nhà cung cấp";
-            this.MANHACUNGCAP.MinimumWidth = 6;
-            this.MANHACUNGCAP.Name = "MANHACUNGCAP";
-            this.MANHACUNGCAP.ReadOnly = true;
-            this.MANHACUNGCAP.Width = 125;
-            // 
-            // MATHELOAI
-            // 
-            this.MATHELOAI.DataPropertyName = "MATHELOAI";
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
-            this.MATHELOAI.DefaultCellStyle = dataGridViewCellStyle6;
-            this.MATHELOAI.Frozen = true;
-            this.MATHELOAI.HeaderText = "Thể loại";
-            this.MATHELOAI.MinimumWidth = 6;
-            this.MATHELOAI.Name = "MATHELOAI";
-            this.MATHELOAI.ReadOnly = true;
-            this.MATHELOAI.Width = 125;
-            // 
-            // GIANHAP
-            // 
-            this.GIANHAP.DataPropertyName = "GIANHAP";
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle7.Format = "N0";
-            dataGridViewCellStyle7.NullValue = null;
-            this.GIANHAP.DefaultCellStyle = dataGridViewCellStyle7;
-            this.GIANHAP.Frozen = true;
-            this.GIANHAP.HeaderText = "Giá nhập";
-            this.GIANHAP.MinimumWidth = 6;
-            this.GIANHAP.Name = "GIANHAP";
-            this.GIANHAP.ReadOnly = true;
-            this.GIANHAP.Width = 125;
-            // 
-            // GIABAN
-            // 
-            this.GIABAN.DataPropertyName = "GIABAN";
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle8.Format = "N0";
-            dataGridViewCellStyle8.NullValue = null;
-            this.GIABAN.DefaultCellStyle = dataGridViewCellStyle8;
-            this.GIABAN.Frozen = true;
-            this.GIABAN.HeaderText = "Giá bán";
-            this.GIABAN.MinimumWidth = 6;
-            this.GIABAN.Name = "GIABAN";
-            this.GIABAN.ReadOnly = true;
-            this.GIABAN.Width = 125;
             // 
             // btnXoaSach
             // 
@@ -1086,6 +978,114 @@ namespace NSMoonLight.UserControls
             this.label3.TabIndex = 8;
             this.label3.Text = "QUẢN LÝ NHẬP SÁCH";
             // 
+            // MASACH
+            // 
+            this.MASACH.DataPropertyName = "MASACH";
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            this.MASACH.DefaultCellStyle = dataGridViewCellStyle1;
+            this.MASACH.Frozen = true;
+            this.MASACH.HeaderText = "Mã sách";
+            this.MASACH.MinimumWidth = 6;
+            this.MASACH.Name = "MASACH";
+            this.MASACH.ReadOnly = true;
+            this.MASACH.Width = 75;
+            // 
+            // TenSach
+            // 
+            this.TenSach.DataPropertyName = "TenSach";
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            this.TenSach.DefaultCellStyle = dataGridViewCellStyle2;
+            this.TenSach.Frozen = true;
+            this.TenSach.HeaderText = "Tên sách";
+            this.TenSach.MinimumWidth = 6;
+            this.TenSach.Name = "TenSach";
+            this.TenSach.ReadOnly = true;
+            this.TenSach.Width = 125;
+            // 
+            // TACGIA
+            // 
+            this.TACGIA.DataPropertyName = "TACGIA";
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            this.TACGIA.DefaultCellStyle = dataGridViewCellStyle3;
+            this.TACGIA.Frozen = true;
+            this.TACGIA.HeaderText = "Tác giả";
+            this.TACGIA.MinimumWidth = 6;
+            this.TACGIA.Name = "TACGIA";
+            this.TACGIA.ReadOnly = true;
+            this.TACGIA.Width = 125;
+            // 
+            // NXB
+            // 
+            this.NXB.DataPropertyName = "TENNXB";
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            this.NXB.DefaultCellStyle = dataGridViewCellStyle4;
+            this.NXB.Frozen = true;
+            this.NXB.HeaderText = "Nhà xuất bản";
+            this.NXB.MinimumWidth = 6;
+            this.NXB.Name = "NXB";
+            this.NXB.ReadOnly = true;
+            this.NXB.Width = 125;
+            // 
+            // NCC
+            // 
+            this.NCC.DataPropertyName = "TENNCC";
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
+            this.NCC.DefaultCellStyle = dataGridViewCellStyle5;
+            this.NCC.Frozen = true;
+            this.NCC.HeaderText = "Nhà cung cấp";
+            this.NCC.MinimumWidth = 6;
+            this.NCC.Name = "NCC";
+            this.NCC.ReadOnly = true;
+            this.NCC.Width = 125;
+            // 
+            // TL
+            // 
+            this.TL.DataPropertyName = "TenTL";
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
+            this.TL.DefaultCellStyle = dataGridViewCellStyle6;
+            this.TL.Frozen = true;
+            this.TL.HeaderText = "Thể loại";
+            this.TL.MinimumWidth = 6;
+            this.TL.Name = "TL";
+            this.TL.ReadOnly = true;
+            this.TL.Width = 125;
+            // 
+            // GIANHAP
+            // 
+            this.GIANHAP.DataPropertyName = "GIANHAP";
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle7.Format = "N0";
+            dataGridViewCellStyle7.NullValue = null;
+            this.GIANHAP.DefaultCellStyle = dataGridViewCellStyle7;
+            this.GIANHAP.Frozen = true;
+            this.GIANHAP.HeaderText = "Giá nhập";
+            this.GIANHAP.MinimumWidth = 6;
+            this.GIANHAP.Name = "GIANHAP";
+            this.GIANHAP.ReadOnly = true;
+            this.GIANHAP.Width = 125;
+            // 
+            // GIABAN
+            // 
+            this.GIABAN.DataPropertyName = "GIABAN";
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle8.Format = "N0";
+            dataGridViewCellStyle8.NullValue = null;
+            this.GIABAN.DefaultCellStyle = dataGridViewCellStyle8;
+            this.GIABAN.Frozen = true;
+            this.GIABAN.HeaderText = "Giá bán";
+            this.GIABAN.MinimumWidth = 6;
+            this.GIABAN.Name = "GIABAN";
+            this.GIABAN.ReadOnly = true;
+            this.GIABAN.Width = 125;
+            // 
             // UC_QuanLycs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 31F);
@@ -1185,9 +1185,9 @@ namespace NSMoonLight.UserControls
         private System.Windows.Forms.DataGridViewTextBoxColumn MASACH;
         private System.Windows.Forms.DataGridViewTextBoxColumn TenSach;
         private System.Windows.Forms.DataGridViewTextBoxColumn TACGIA;
-        private System.Windows.Forms.DataGridViewTextBoxColumn MANHAXB;
-        private System.Windows.Forms.DataGridViewTextBoxColumn MANHACUNGCAP;
-        private System.Windows.Forms.DataGridViewTextBoxColumn MATHELOAI;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NXB;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NCC;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TL;
         private System.Windows.Forms.DataGridViewTextBoxColumn GIANHAP;
         private System.Windows.Forms.DataGridViewTextBoxColumn GIABAN;
     }

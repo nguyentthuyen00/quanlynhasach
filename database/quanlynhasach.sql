@@ -18,7 +18,7 @@ GO
 -- Dữ liệu --
 insert into NHACUNGCAP (MaNCC,TenNCC,Diachi,DienThoai,Email) values ('KD',N'Kim Đồng', N'55 Quang Trung, Hai Bà Trưng, Hà Nội','0243.943.4730','kimdong@hn.vnn.vn')
 insert into NHACUNGCAP (MaNCC,TenNCC,Diachi,DienThoai,Email) values ('NN',N'Nhã Nam', N'59 - Đỗ Quang - Trung Hòa - Cầu Giấy - Hà Nội','0903244248','bookstore@nhanam.vn')
-insert into NHACUNGCAP (MaNCC,TenNCC,Diachi,DienThoai) values ('TV',N'Trí  Việt',N'36/5 Đường Vĩnh Phú 20, P, Thuận An, Bình Dương','028 2214 8086')
+insert into NHACUNGCAP (MaNCC,TenNCC,Diachi,DienThoai) values ('TV',N'Trí Việt',N'36/5 Đường Vĩnh Phú 20, P, Thuận An, Bình Dương','028 2214 8086')
 insert into NHACUNGCAP (MaNCC,TenNCC,Diachi,DienThoai,Email) values ('ML',N'Minh Long',N'Số 378 Minh Khai, phường Vĩnh Tuy, quận Hai Bà Trưng, Hà Nội','024 7300 8377','minhlongbook@gmail.com')
 insert into NHACUNGCAP (MaNCC,TenNCC,Diachi,DienThoai) values ('HHB',N'Huy Hoang Bookstore',N'110D Ngọc Hà, P. Đội Cấn, Q. Ba Đình, Hà Nội','043 7365859')
 insert into NHACUNGCAP (MaNCC,TenNCC,Diachi,DienThoai,Email) values ('1980B',N'1980 Books',N'58/79 Nguyễn Minh Hoàng-Phường 12-Tân Bình, Quận 3, - TP.HCM','02839333216',' info@1980books.vn')
@@ -264,6 +264,10 @@ CREATE TABLE KHUYENMAI
 )
 GO
 
+INSERT INTO KHUYENMAI(MaKM, NgayBatDau, NgayKetThuc, Ten, ChiTiet) VALUES ('NOEL2020', '2020-12-12', '2020-12-25', N'Sách kinh tế giảm đến 30%', N'Chương trình giảm giá cuối năm vào dịp lễ Noel 2020')
+INSERT INTO KHUYENMAI(MaKM, NgayBatDau, NgayKetThuc, Ten, ChiTiet) VALUES ('BLACKFRIDAY', '2020-11-23', '2020-11-30', N'Tuần lễ ĐEN TỐI', N'Chương trình giảm giá trong Thứ sau đen tối (Black Friday)')
+INSERT INTO KHUYENMAI(MaKM, NgayBatDau, NgayKetThuc, Ten, ChiTiet) VALUES ('CHAONAMMOI', '2021-01-01', '2020-01-03', N'Khuyến mãi đầu năm cũng nhiều quà tặng', N'Chương trình giảm giá chào đón năm mới 2021');
+
 CREATE TABLE CT_KHUYENMAI
 (
 	MaKM varchar(12) constraint FK_KM foreign key references KHUYENMAI(MaKM),
@@ -272,6 +276,16 @@ CREATE TABLE CT_KHUYENMAI
 	CONSTRAINT PK_DonDatHang PRIMARY KEY(MaKM,MaSach)
 )
 GO
+
+INSERT INTO CT_KHUYENMAI (MaKM, MaSach, GiaKhuyenMai) VALUES ('NOEL2020', 'TDPB', 80000)
+INSERT INTO CT_KHUYENMAI (MaKM, MaSach, GiaKhuyenMai) VALUES ('NOEL2020', 'KN4.0', 80000)
+INSERT INTO CT_KHUYENMAI (MaKM, MaSach, GiaKhuyenMai) VALUES ('NOEL2020', 'TKTD', 80000)
+INSERT INTO CT_KHUYENMAI (MaKM, MaSach, GiaKhuyenMai) VALUES ('NOEL2020', 'NTBDDT', 80000)
+INSERT INTO CT_KHUYENMAI (MaKM, MaSach, GiaKhuyenMai) VALUES ('BLACKFRIDAY', 'SCBDB8', 100000)
+INSERT INTO CT_KHUYENMAI (MaKM, MaSach, GiaKhuyenMai) VALUES ('BLACKFRIDAY', 'OPCB10', 160000)
+INSERT INTO CT_KHUYENMAI (MaKM, MaSach, GiaKhuyenMai) VALUES ('CHAONAMMOI', 'TTCN95', 15000)
+INSERT INTO CT_KHUYENMAI (MaKM, MaSach, GiaKhuyenMai) VALUES ('CHAONAMMOI', 'DRD011', 14000);
+
 CREATE TABLE QUYDINH
 (
 	MAQD INT IDENTITY(1,1) , 

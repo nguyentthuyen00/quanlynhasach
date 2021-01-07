@@ -58,7 +58,7 @@ namespace NSMoonLight.UserControls
 
         private void loadBook()
         {
-            string query = "SELECT * FROM SACH";
+            string query = "SELECT S.MaSach, S.TenSach, S.TacGia, NCC.TenNCC, NXB.TenNXB, TL.TenTL, S.GiaNhap, S.GiaBan, S.DonViTinh FROM SACH S, NHAXUATBAN NXB, NHACUNGCAP NCC, THELOAI TL WHERE S.MaTheLoai = TL.MaTL AND S.MaNhaCungCap = NCC.MaNCC AND S.MaNhaXB = NXB.MaNXB";
             SqlCommand cdm = new SqlCommand(query, DAO.functionconnect.conn);
             SqlDataAdapter da = new SqlDataAdapter(cdm);
             DataTable dt = new DataTable();
